@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dacoid assignment</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    
+    <div class="ads-1 w-full justify-center flex">
+      <div class="ads flex flex-col w-1/2">
+        <div class="m-5">
+          <button
+            class="skip font- underline text-customBlue text-1xl float-end"
+            id="skip1"
+          >
+            Skip
+          </button>
+        </div>
+
+        <div class="flex justify-center">
+          <img class="my-5" src="./assets/images/1.png" alt="image1" />
+        </div>
+
+        <div class="my-5 mx-2 flex flex-col my">
+          <h1 class="font-bold my-3 px-2 text-2xl">Track Your Goal</h1>
+          <p class="px-2 text-xl text-customgreydark">
+            Don't worry if you have trouble determining your goals. We can help
+            you to determine your goals and track goals.
+          </p>
+        </div>
+
+        <div class="flex justify-end m-5">
+          <div class="rounded-full border-2 border-customBlue p-1 mt-20">
+            <button
+              class="btn w-14 h-14 rounded-full bord text-xl font-bold text-customwhite"
+              id="btn1"
+            >
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ads-2 w-full justify-center flex" style="display: none">
+      <div class="ads flex flex-col w-1/2">
+        <div class="m-5">
+          <button
+            class="skip font- underline text-customBlue text-1xl float-end"
+            id="skip2"
+          >
+            Skip
+          </button>
+        </div>
+
+        <div class="flex justify-center">
+          <img class="my-5" src="./assets/images/2.png" alt="image2" />
+        </div>
+
+        <div class="my-5 mx-2 flex flex-col my">
+          <h1 class="font-bold my-3 px-2 text-2xl">Get Burn</h1>
+          <p class="px-2 text-xl text-customgreydark">
+            Let's keep burning to achieve your goals, it hurts only temporarily,
+            if you give up now you will be in pain forever.
+          </p>
+        </div>
+
+        <div class="flex justify-end m-5">
+          <div class="rounded-full border-2 border-customBlue p-1 mt-20">
+            <button
+              class="btn w-14 h-14 rounded-full bord text-xl font-bold text-customwhite"
+              id="btn2"
+            >
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login w-full justify-center flex" id="Login">
+      <div class="login-sub flex flex-col w-1/2">
+        <h1 class="font-bold my-3 px-2 text-2xl">Welcome Back</h1>
+
+        <div class="my-5 mx-2 flex flex-col">
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-4"
+          />
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-3"
+          />
+
+          <button class="font- underline text-1xl flex justify-start px:3">
+            Forget your Password?
+          </button>
+        </div>
+        <div class="flex justify-center my-11">
+          <button
+            id="SignIn"
+            class="btn signIN h-12 w-1/2 rounded-xl text-xl text-customwhite mt-20"
+          >
+            Sign In
+          </button>
+        </div>
+
+        <div class="flex flex-row items-center">
+          <div class="w-1/2 h-1 bg-customgreymedium rounded-full"></div>
+          <div class="mx-2">Or</div>
+          <div class="w-1/2 h-1 bg-customgreymedium rounded-full"></div>
+        </div>
+
+        <div class="flex flex-row justify-center my-10">
+          <button
+            id="google"
+            class="border-2 black p-2 rounded-xl mx-4 hover:bg-customgreylight active:bg-customwhite"
+          >
+            <img class="w-5" src="./assets/images/google.png" alt="Google" />
+          </button>
+          <button
+            id="facebook"
+            class="border-2 black p-2 rounded-xl mx-4 hover:bg-customgreylight active:bg-customwhite"
+          >
+            <img class="w-5" src="./assets/images/facebook.png" alt="Facebook" />
+          </button>
+        </div>
+
+        <div class="font- underline text-1xl flex justify-center px:3 my:2">
+          Don't have an account yet?
+          <p class="mx-1 text-customblue">
+            <a id="create" href="#createAccount"> Create an account</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Create-account w-full justify-center flex">
+      <div class="login-sub flex flex-col w-1/2">
+        <h1 class="font-bold my-3 px-2 text-2xl">Create an account</h1>
+
+        <div class="my-5 mx-2 flex flex-col">
+          <input
+            type="text"
+            id="firstname"
+            placeholder="First Name"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-4"
+          />
+
+          <input
+            type="text"
+            id="lastname"
+            placeholder="Last Name"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-4"
+          />
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-4"
+          />
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="p-3 pl-7 rounded-xl bg-customgreylight my-3"
+          />
+
+          <div class="flex flex-row items-center">
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="p-3 pl-7 rounded-xl bg-customgreylight my-3"
+            />
+            <label
+              class="text-sm text-customgreydark ml-1"
+              for="checkbox"
+              class="text-customgreydark"
+              >By proceeding,I agree to all
+              <span class="text-customblue underline">T&C</span> and
+              <span class="text-customblue underline"
+                >Privacy policy</span
+              ></label
+            >
+          </div>
+        </div>
+        <div class="flex justify-center my-11">
+          <button
+            id="createAccount"
+            class="btn signIN h-12 w-1/2 rounded-xl text-xl text-customwhite mt-20"
+          >
+            Create an account
+          </button>
+        </div>
+
+        <div class="flex flex-row items-center">
+          <div class="w-1/2 h-1 bg-customgreymedium rounded-full"></div>
+          <div class="mx-2">Or</div>
+          <div class="w-1/2 h-1 bg-customgreymedium rounded-full"></div>
+        </div>
+
+        <div class="flex flex-row justify-center my-10">
+          <button
+            id="create-google"
+            class="border-2 black p-2 rounded-xl mx-4 hover:bg-customgreylight active:bg-customwhite"
+          >
+            <img class="w-5" src="./assets/images/google.png" alt="Google" />
+          </button>
+          <button
+            id="create-facebook"
+            class="border-2 black p-2 rounded-xl mx-4 hover:bg-customgreylight active:bg-customwhite"
+          >
+            <img class="w-5" src="./assets/images/facebook.png" alt="Facebook" />
+          </button>
+        </div>
+
+        <div class="font- underline text-1xl flex justify-center px:3 my:2">
+          Already have an account?
+          <p class="mx-1 text-customblue">
+            <a id="haveaccount" href="#Login">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="goals w-full justify-center flex">
+      <div class="login-sub flex flex-col w-1/2">
+        <div class="flex justify-center my-4">
+          <h1 class="font-bold my-3 px-2 text-2xl">What are your goals</h1>
+        </div>
+        <div class="flex flex-col my-3">
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label for="checkbox">Weight Loss</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label class="text-sm" for="checkbox">Muscle Gain</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label for="checkbox">Flexibity and Mobility</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label for="checkbox">General Fitness</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label for="checkbox">Event - Specific Training</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+
+          <div
+            class="bg-customgreylight h-12 rounded-xl flex items-center justify-between px-5 my-3"
+          >
+            <label for="checkbox">Mindfulness and Mental Health</label>
+            <input
+              class="h-5 w-5 bg-customBlue border-2 border-customBlue rounded-xl"
+              type="checkbox"
+            />
+          </div>
+        </div>
+
+        <div class="flex justify-center my-11">
+          <button
+            id="confirmbtn"
+            class="btn signIN h-12 w-1/2 rounded-xl text-xl text-customwhite mt-20"
+          >
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="home flex flex-col justify-center items-center bg-customwhite">
+      <div class="home-header absolute flex justify-start w-1/2 top-1">
+        <button class="btn2 ml-2 font-bold flex items-center justify-center" id="back1">
+          <
+        </button>
+      </div>
+      <h1 class="font-bold text-2xl">Workout tracker</h1>
+
+      <div class="mx-3 my-5">
+        <img src="assets/images/3.png" alt="image3" />
+      </div>
+
+      <div class="w-full flex justify-center items-center">
+        <div class="status flex items-center rounded-2xl w-1/2 mx-3">
+          <img
+            class="w-8 h-8 mx-1 ml-3"
+            src="assets/images/warning.png"
+            alt="warning"
+          />
+          <p class="mx-2 text-lg">
+            You've burned fewer calories than yesterday. Time to get moving!
+          </p>
+        </div>
+      </div>
+
+      <div class="workout flex flex-col w-1/2 my-8">
+        <div class="flex justify-between items-center flex-row my-2 mx-4">
+          <h1 class="text-2xl font-bold">Upcoming Workouts</h1>
+          <p class="text-customgreydark text-2xl">See more</p>
+        </div>
+
+        <div class="workout-1 flex flex-row justify-between items-center mx-3 shadow-lg rounded-xl my-3">
+          <div class="flex flex-row items-center justify-between mx-2">
+            <img class="m-2" src="assets/images/FullBody.png" alt="FullBody" />
+
+            <div class="flex flex-col mx-2 justify-start">
+              <h1 class="text-xl">Full Body Workout</h1>
+              <p class="text-customgreydark">Today 3pm</p>
+            </div>
+          </div>
+
+          <div class="mr-3">
+            <label class="inline-flex items-center mb-5 cursor-pointer">
+              <input type="checkbox" value="" class="sr-only peer">
+              <div class="relative w-11 h-6 bg-custombluedark peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-customwhite dark:peer-focus:ring-customwhite rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-custombluedark"></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="workout-1 flex flex-row justify-between items-center mx-3 shadow-lg rounded-xl my-3">
+          <div class="flex flex-row items-center justify-between mx-2">
+            <img class="m-2" src="assets/images/UpperBody.png" alt="FullBody" />
+  
+            <div class="flex flex-col mx-2 justify-start">
+              <h1 class="text-xl">Upper Body Workout</h1>
+              <p class="text-customgreydark">4 Feb,  3:30pm</p>
+            </div>
+          </div>
+  
+          <div class="mr-3">
+            <label class="inline-flex items-center mb-5 cursor-pointer">
+              <input type="checkbox" value="" class="sr-only peer">
+              <div class="relative w-11 h-6 bg-custombluedark peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-customwhite dark:peer-focus:ring-customwhite rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-custombluedark"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="flex w-1/2 mb-4 Train">
+        <h class="font-bold text-2xl mx-2">What Do You Want to Train</h1>
+      </div>
+
+      <div class="w-1/2   Training">
+        <div class="bg-custombluelight flex flex-row justify-between  rounded-t-2xl mx-2"> 
+          <div class="flex flex-col justify-start mx-4">
+            <h1 class="font-bold text-xl my-2">Full Body Workout</h1>
+            <p class="my-2 text-xl">Arm</p>
+            <p class="my-2">Chest</p>
+          </div>
+          <img class="mx-3 w-15 h-14 text-xl mt-20" src="assets/images/Train.png" alt="Train">
+        </div>
+      </div>
+
+        <div class="w-1/2 bg-customwhite header">
+          <div class="flex justify-between mx-4 my-3">
+          
+            <button><img class="img " src="assets/images/home.png" alt="Home"></button>
+            <button><img class="img" src="assets/images/camera (1).png" alt="Gallary"></button>
+            <button><img class="img bg-customBlue rounded-full" src="assets/images/magnifying-glass.png" alt="magnifying-glass"></button>
+            <button><img class="img" src="assets/images/camera.png" alt="Camera"></button>
+            <button><img class="img" src="assets/images/user.png" alt="profile"></button>
+          
+          </div>
+        </div>
+    </div> 
+
+    <div
+      class="workout-Sch flex flex-col justify-center items-center bg-customwhite">
+      <div class="home-header absolute flex justify-start w-1/2 top-1">
+        <button class="btn2 ml-2 font-bold flex items-center justify-center" id="back2">
+          <
+        </button>
+      </div>
+      <h1 class="font-bold text-2xl">Workout Schedule</h1>
+
+     <h1 class="text-xl my-2"> < Feb 2024 ></Feb></h1>
+
+    
+        <div class="mx-10 flex flex-row justify-between w-1/2 workout-sch my-3">
+          <div class="flex justify-center items-center flex-col shadow-lg h-28 w-20 rounded-2xl ml-2">
+            <p class=" text-2xl">Sun</p>
+            <h1 class="text-3xl font-bold">5</h1>
+          </div>
+
+          <div class=" btn flex justify-center items-center flex-col shadow-lg h-28 w-20 rounded-2xl">
+            <p class=" text-2xl">Mon</p>
+            <h1 class="text-3xl font-bold">6</h1>
+          </div>
+
+          <div class="flex justify-center items-center flex-col shadow-lg h-28 w-20 rounded-2xl">
+            <p class=" text-2xl">Tue</p>
+            <h1 class="text-3xl font-bold">7</h1>
+          </div>
+
+
+          <div class="flex justify-center items-center flex-col shadow-lg h-28 w-20 rounded-2xl">
+            <p class=" text-2xl">Wed</p>
+            <h1 class="text-3xl font-bold">8</h1>
+          </div>
+
+
+          <div class="flex justify-center items-center flex-col shadow-lg h-28 w-20 rounded-2xl mr-2">
+            <p class=" text-2xl">Thu</p>
+            <h1 class="text-3xl font-bold">9</h1>
+          </div>
+
+        </div>
+ 
+
+      <div class="flex flex-col w-1/2 calendar my-2">
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">06:00 AM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold mt-4 mb-2 mx-3">07:00 AM</h1>
+            <div class="flex flex-row items-center">
+            <div class=" line h-0.5 bg-customgreydark w-1/2"></div>
+            <div class="text-customwhite bg-custompink rounded-3xl px-3 h-6 w-60 flex justify-center items-center">Ab Workout, 7:30am</div>
+            <div class=" line h-0.5 bg-customgreydark w-1/2"></div>
+            </div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-3 mx-3">08:00 AM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <div my-5 mx-3>
+            <h1 class="text-xl font-bold mt-4 mx-3 ">09:00 AM</h1>
+            <div class="flex justify-center">
+            <div class="text-customwhite bg-custompink rounded-3xl px-3 h-6 w-60 flex justify-center items-center">Upperbody Workout, 9am</div>
+            </div>
+            </div>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">10:00 AM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">11:00 AM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">12:00 PM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">01:00 PM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+
+          <div>
+            <h1 class="text-xl font-bold my-5 mx-3">02:00 PM</h1>
+            <div class=" h-0.5 bg-customgreydark"></div>
+          </div>
+      </div>
+
+      <div class="add flex justify-end w-1/2">
+        <button class="bg-custompink h-20 w-20 flex justify-center items-center rounded-full absolute bottom-40"><img src="assets/images/plus.png" alt="plus"></button>
+      </div>
+
+        <div class="w-1/2 bg-customwhite header">
+          <div class="flex justify-between mx-4 my-3">
+          
+            <button  id="homebtn"><img class="img " src="assets/images/home.png" alt="Home"></button>
+            <button><img class="img" src="assets/images/camera (1).png" alt="Gallary"></button>
+            <button><img class="img bg-customBlue rounded-full" src="assets/images/magnifying-glass.png" alt="magnifying-glass"></button>
+            <button><img class="img" src="assets/images/camera.png" alt="Camera"></button>
+            <button><img class="img" src="assets/images/user.png" alt="profile"></button>
+          
+           </div> 
+      </div>
+    </div> 
+
+  </body>
+  <script src="./assets/script.js"></script>
+</html>
